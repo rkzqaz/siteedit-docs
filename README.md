@@ -1,4 +1,4 @@
-siteedit-api-docs
+siteedit-docs
 =================
 
-Документация API CMS SiteEdit 
+Документация и информационные материалы по CMS SiteEdit 
