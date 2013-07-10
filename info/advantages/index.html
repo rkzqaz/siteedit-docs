@@ -18,7 +18,7 @@
 	<body data-spy="scroll" data-target=".se-docs-sidebar">
 		<!-- Navbar
 		================================================== -->
-		<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="navbar navbar-inverse">
 		  <div class="navbar-inner">
 			<div class="container">
 			  <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -37,11 +37,16 @@
 			</div>
 		  </div>
 		</div>
-		<header class="subhead" id="overview">
-			<div class="container">
-				<h1>Преимущества · SiteEdit</h1>
-			</div>
-		</header>
+		<div class="container">
+			<header class="hero-unit">
+				<div class="hero-side pull-right">
+					<a href="http://www.edgestile.ru/"><img src="../_media/edgestile.png"></a>
+					<a href="http://www.siteedit.ru/"><img src="../_media/siteedit.png"></a>
+				</div>
+				<h1>Преимущества</h1>
+				<p class="tagline">SiteEdit - программный комплекс, позволяющий решить все технические вопросы от проектирования и создания сайта до размещения и поддержки его работоспособности в сети Интернет.</p>
+			</header>
+		</div>
 		<div class="container">
 			<!-- Docs nav
 			================================================== -->
@@ -75,175 +80,198 @@
 			  </div>
 			  <div class="span9">
 			  
-				<section id="offline">
+				<section class="clearfix" id="offline">
 					<div class="page-header">
 						<h2>Off-line система. <br><small>Возможность работать без прямого подключения к сети Интернет, даже в поездках.</small></h2>
 					</div>
+					<img src="img/offline.png" class="section-img pull-right">
 					<p>При работе с CMS SiteEdit проект сайта хранится в памяти вашего компьютера или ноутбука. Изменять проект (добавлять в него новую информацию, работать с дизайном) вы можете в любое время – для этого не нужно подключение к Сети. Интернет понадобится вам лишь тогда, когда вы захотите выгрузить изменения на сайт, для этого потребуется нажать одну кнопку – «Публикация сайта».</p>
 					<p>Программа SiteEdit экономит интернет-трафик, а это важно для тех пользователей, которые не располагают скоростным доступом в интернет. Работать с сайтами вы сможете в дороге, например, в командировочных поездках. Достаточно взять с собой ноутбук с предустановленной программой. Также проекты сайтов можно скидывать на флешку.</p>
 				</section>
 				<hr class="se-docs-separator">
-				<section id="seo">
+				<section class="clearfix" id="seo">
 					<div class="page-header">
 						<h2>Оптимизация сайта. <br><small>Качественная, быстрая и удобная.</small></h2>
 					</div>
+					<img src="img/seo.png" class="section-img pull-right">
 					<p>SiteEdit располагает простыми и понятными инструментами для оптимизации сайта, т. е. для того, чтобы сделать сайт более привлекательным и ценным с точки зрения роботов поисковых систем.</p>
 					<p>Через интерфейс программы к каждой странице можно добавить <code>&lt;title&gt;</code> (заголовок), <code>&lt;description&gt;</code> (описание), <code>&lt;keywords&gt;</code> (ключевые слова), для этого вам не придётся разбираться в сложных программных кодах. Адреса страниц используют ЧПУ — человеко-понятный URL (адрес страницы). А для более продвинутых пользователей существует удобный html-редактор.</p>
 					<p>В версии SIteEdit Business есть специальный «Модуль продвижения сайта», который позволяет оценить содержание сайта и определить состав и плотность ключевых слов для каждой страницы, даже не выгружая его в Интернет.</p>
 				</section>
 				<hr class="se-docs-separator">
-				<section id="protection">
+				<section class="clearfix" id="protection">
 					<div class="page-header">
 						<h2>Защита сайтов и системы от взлома, <br><small>безопасность хранения информации</small></h2>
 					</div>
+					<img src="img/protection.png" class="section-img pull-right">
 					<p>Даже опытные хакеры признают, что взломать SiteEdit невозможно. Это «клиент-серверная» система, при которой на компьютер клиента (т. е. пользователя) устанавливается лишь небольшая клиентская часть программы, а главное (движок) находится на защищённом сервере компании Edgestile.</p>
 					<p>Если предположить, что часть информации с сайта пропадёт, вы всё равно сможете её восстановить, ведь проект сайта хранится на вашем собственном ПК. Также случайно затёртую вами нужную информацию помогают вернуть резервные копии проекта. Которые создаются как на компьютере пользователя, так и на сервере.</p>
 				</section>
 				<hr class="se-docs-separator">
-				<section id="separate">
+				<section class="clearfix" id="separate">
 					<div class="page-header">
 						<h2>Отделение информации от дизайна <br><small>позволяет легко менять оформление сайта, выбирать разные дизайны для одного информационного наполнения</small></h2>
 					</div>
+					<img src="img/separate.png" class="section-img pull-right">
 					<p>Программа SiteEdit содержит в себе ряд готовых шаблонов дизайна по разным тематикам (медицина, образование, спорт, бизнес, производство, нейтральной оформление и пр.). В любой момент вы можете заменить весь дизайн или отдельные его элементы (с помощью редактора дизайна), содержимое от этого никак не пострадает. Смена дизайна осуществляется в 3 клика из интерфейса программы.</p>
 				</section>
 				<hr class="se-docs-separator">
-				<section id="modules">
+				<section class="clearfix" id="modules">
 					<div class="page-header">
 						<h2>Модульная система. <br><small>Возможность быстро выбрать и просто подключить один из многих модулей к сайту</small></h2>
 					</div>
+					<img src="img/modules.png" class="section-img pull-right">
 					<p>Подобно тому, как конструктор состоит из кубиков,  SiteEdit включает в себя разнообразные модули — функциональные части сайта. «Текст и рисунок», «Фотоальбом», «Гостевая книга», «Карта сайта», «Поиск», «Анкета», «Форум», «География организаций Яндекс»… — задействуйте в проекте те инструменты, которые вам действительно нужны и не используйте ненужные.</p>
 				</section>
 				<hr class="se-docs-separator">
-				<section id="shopcontrol">
+				<section class="clearfix" id="shopcontrol">
 					<div class="page-header">
 						<h2>Удобство управления интернет-магазином <br><small>с помощью дополнительной программы SiteEdit менеджер</small></h2>
 					</div>
+					<img src="img/shopcontrol.png" class="section-img pull-right">
 					<p>Для владельцев интернет-магазинов разработчики SiteEdit приготовили удобный способ управления интернет-магазином. Это небольшая программа, приложение к SiteEdit Business, которая устанавливается на компьютер пользователя. Программа позволяет управлять магазином неограниченным количеством ответственных людей, находящимся в одном офисе или работающим дистанционно.</p>
 					<p>Менеджер интернет-магазина необходим для управления товарами и их группами, а также скидками, маркетинговыми акциями, он помогает настраивать способы доставки, работать с валютой, объявлять хиты продаж и одновременно вести несколько сайтов на разных языках.</p>
 				</section>
 				<hr class="se-docs-separator">
-				<section id="sitecontrol">
+				<section class="clearfix" id="sitecontrol">
 					<div class="page-header">
 						<h2>Простота управления сайтом</h2>
 					</div>
+					<img src="img/sitecontrol.png" class="section-img pull-right">
 					<p>Программа доступна для понимания обычными пользователями за счёт интуитивно понятного интерфейса. Для создания сайта и последующего управления им не обязательно знать языки программирования.</p>
 				</section>
 				<hr class="se-docs-separator">
-				<section id="extensibility">
+				<section class="clearfix" id="extensibility">
 					<div class="page-header">
 						<h2>Расширяемость системы</h2>
 					</div>
+					<img src="img/extensibility.png" class="section-img pull-right">
 					<p>CMS SiteEdit не является закрытой системой для сторонних разработчиков. Создавать новые модули и вносить индивидуальные доработки в существующие позволяет специальная дополнительная программа – редактор модулей.</p>
 				</section>
 				<hr class="se-docs-separator">
-				<section id="multiproject">
+				<section class="clearfix" id="multiproject">
 					<div class="page-header">
 						<h2>Возможность создания неограниченного количества проектов</h2>
 					</div>
+					<img src="img/multiproject.png" class="section-img pull-right">
 					<p>В SiteEdit вы можете создать столько проектов, сколько вам понадобится: хоть десять, хоть тысячу. Система полезна для тех, кто хочет попробовать себя в роли web-дизайнера, поэкспериментировать, использовать CMS в учебных целях.</p>
 					<p>Все проекты, которые вы создадите, удобно выстраиваются в списке каждый раз, когда вы открываете программу.</p>
 				</section>
 				<hr class="se-docs-separator">
-				<section id="design">
+				<section class="clearfix" id="design">
 					<div class="page-header">
 						<h2>Лёгкость создания своего дизайна <br><small>с помощью удобного визуального редактора</small></h2>
 					</div>
+					<img src="img/design.png" class="section-img pull-right">
 					<p>В SiteEdit редактировать карту сайта можно не только с помощью внесения изменений в исходный код, но и с помощью несложного визуального редактора. Вы научитесь  видоизменять структуру и внешний вид сайта, даже не обладая углублёнными знаниями в сфере web-дизайна.</p>
 				</section>
 				<hr class="se-docs-separator">
-				<section id="design">
+				<section class="clearfix" id="partners">
 					<div class="page-header">
 						<h2>Партнёрская среда, <br><small>которая позволяет быстро получить информацию по работе с системой SiteEdit.</h2>
 					</div>
+					<img src="img/partners.png" class="section-img pull-right">
 					<p>Cотни предпринимателей в России, Казахстане, Украине, Белоруссии и других странах построили успешный бизнес благодаря сотрудничеству с Edgestile – компанией- разработчиком SiteEdit. Если вы решите стать Партнёром компании и зарабатывать на создании сайтов, то получите помощь от своего наставника и компании.</p>
 					<p>Вы можете обратиться за советами и рекомендациями к нашим Партнёрам через группу SiteEdit в Facebook или приехать на один из партнёрских семинаров Edgestile  и пройти там комплексное обучение профессиональной работе с программой. Также для вас – бесплатные обучающие web-конференции по работе с SiteEdit.</p>
 				</section>
 				<hr class="se-docs-separator">
-				<section id="handover">
+				<section class="clearfix" id="handover">
 					<div class="page-header">
 						<h2>Лёгкость передачи проекта сайта <br><small>от разработчика к клиенту</small></h2>
 					</div>
+					<img src="img/handover.png" class="section-img pull-right">
 					<p>Сдача готового сайта, разработанного на SiteEdit, не составляет трудности. Всё, что требуется – установить программу на компьютер клиента, передать ему регистрационные данные от проекта и провести небольшое обучение. Замечено, что после передачи проектов SiteEdit большинство заказчиков способны управлять сайтом самостоятельно.</p>
 				</section>
 				<hr class="se-docs-separator">
-				<section id="transfer">
+				<section class="clearfix" id="transfer">
 					<div class="page-header">
 						<h2>Лёгкость переноса сайта <br><small>на другой хостинг</small></h2>
 					</div>
+					<img src="img/transfer.png" class="section-img pull-right">
 					<p>Компания Edgestile предлагает своим клиентам как системные, так и отчуждаемые лицензии SiteEdit. При покупке отчуждаемой лицензии пользователь может разместить сайт на стороннем хостинге.</p>
 				</section>
 				<hr class="se-docs-separator">
-				<section id="uploading">
+				<section class="clearfix" id="uploading">
 					<div class="page-header">
 						<h2>Адаптивная выгрузка</h2>
 					</div>
+					<img src="img/uploading.png" class="section-img pull-right">
 					<p>Процесс выгрузки изменений на сайт подстраивается под особенности вашего интернет-канала, то есть формируются файлы определённого веса в зависимости от скорости Интернета.</p>
 					<p>Кроме того, программа экономит трафик: вам не нужно каждый раз выгружать сайт целиком, достаточно опубликовать лишь последние изменения.</p>
 				</section>
 				<hr class="se-docs-separator">
-				<section id="uploading">
+				<section class="clearfix" id="uploading">
 					<div class="page-header">
 						<h2>Возможность создавать проекты на разных языках</h2>
 					</div>
+					<img src="img/uploading.png" class="section-img pull-right">
 					<p>SiteEdit v 5.0 поддерживает многоязычность сайтов. В пределах одного и того же проекта вы можете наполнить web-страницы контентом для русских, английских, немецких и т. д. пользователей. Посетители сайта смогут переключиться на нужный язык с помощью специальных кнопок. Обратим внимание, что наполнять сайт иноязычным контентом вам потребуется самостоятельно, автоматически программа проекты не переводит.</p>
 				</section>
 				<hr class="se-docs-separator">
-				<section id="cleanurl">
+				<section class="clearfix" id="cleanurl">
 					<div class="page-header">
 						<h2>«Человекопонятные» адреса страниц сайта</h2>
 					</div>
+					<img src="img/cleanurl.png" class="section-img pull-right">
 					<p>Программа допускает формирование «читабельных» адресов web-страниц. Причём названия страницам вы сможете давать самостоятельно, например: вместо <code>www.my_site/index.php?page=374612350325</code> использовать название <code>www.my_site.ru/plastikovie_okna</code>. «Человекопонятные» названия страниц считаются более удобными и приветствуются не только пользователями-людьми, но и роботами поисковых систем.</p>
 				</section>
 				<hr class="se-docs-separator">
-				<section id="multidesign">
+				<section class="clearfix" id="multidesign">
 					<div class="page-header">
 						<h2>Возможность создания различных дизайнов для разных страниц сайта</h2>
 					</div>
+					<img src="img/multidesign.png" class="section-img pull-right">
 					<p>SiteEdit позволяет организовать на одном сайте несколько дизайнов, т.е. несколько страниц, различных по цветовой гамме и визуальному оформлению. Например, можно создать стартовую страницу сайта, которая будет отличаться от всех остальных, или на каждой странице разместить в шапке отдельную фотографию.</p>
 					<p>Программа не ограничивает вас в экспериментах по созданию разных стилей оформления на сайте.</p>
 				</section>
 				<hr class="se-docs-separator">
-				<section id="help">
+				<section class="clearfix" id="help">
 					<div class="page-header">
 						<h2>База знаний о системе SiteEdit</h2>
 					</div>
+					<img src="img/help.png" class="section-img pull-right">
 					<p>С целью помощи пользователям SiteEdit был создан справочный ресурс <a href="http://help.siteedit.ru">http://help.siteedit.ru</a>, на нём вы найдёте описания основных инструментов программы, а также уроки по работе с системой.</p>
 					<p>Получить ответы на часто задаваемые вопросы поможет форум SiteEdit, там же вы можете оставить свои вопросы руководству компании и другим пользователям.</p>
 				</section>
 				<hr class="se-docs-separator">
-				<section id="updates">
+				<section class="clearfix" id="updates">
 					<div class="page-header">
 						<h2>Регулярное обновление программы</h2>
 					</div>
+					<img src="img/updates.png" class="section-img pull-right">
 					<p>SiteEdit – это постоянно развивающийся продукт. Над его развитием трудится штат квалифицированных программистов, появляются новые модули, совершенствуются существующие инструменты с учётом потребностей пользователей и последних тенденций развития Интернета.</p>
 				</section>
 				<hr class="se-docs-separator">
-				<section id="assets">
+				<section class="clearfix" id="assets">
 					<div class="page-header">
 						<h2>Поддержка CSS 3 и HTML 5</h2>
 					</div>
+					<img src="img/assets.png" class="section-img pull-right">
 					<p>SiteEdit v 5.0 поддерживает такие современные технологии, как CSS 3 и HTML 5, для того, чтобы пользователи могли создавать красивые, стильные, интерактивные и удобные web-сайты.</p>
 				</section>
 				<hr class="se-docs-separator">
-				<section id="install">
+				<section class="clearfix" id="install">
 					<div class="page-header">
 						<h2>Бесплатная и лёгкая установка программы</h2>
 					</div>
+					<img src="img/install.png" class="section-img pull-right">
 					<p>SiteEdit – это бесплатная программа, пользоваться ею может любой желающий. Покупка лицензии потребуется лишь в том случае, если вы хотите, чтобы ваш сайт появился в сети Интернет.</p>
 					<p>Скачать программу можно с официального сайта <a href="http://www.siteedit.ru/download/">http://www.siteedit.ru/download</a>. Процесс занимает несколько минут, подсказки по установке даёт «Мастер-установщик SiteEdit» на русском языке.</p>
 				</section>
 				<hr class="se-docs-separator">
-				<section id="accesscontrol">
+				<section class="clearfix" id="accesscontrol">
 					<div class="page-header">
 						<h2>Распределение прав доступа</h2>
 					</div>
+					<img src="img/accesscontrol.png" class="section-img pull-right">
 					<p>Работая с SiteEdit, администратор сайта получает гибкие возможности управлять группами зарегистрированных пользователей, назначая для них уровни доступа к отдельным страницам и материалам ресурса. Например, он может назначать модераторов, других администраторов сайта, банить отдельных пользователей и т. д.</p>
 				</section>
 				<hr class="se-docs-separator">
-				<section id="templates">
+				<section class="clearfix" id="templates">
 					<div class="page-header">
-						<h2>23.	Бесплатные шаблоны дизайна</h2>
+						<h2>Бесплатные шаблоны дизайна</h2>
 					</div>
+					<img src="img/templates.png" class="section-img pull-right">
 					<p>В программу SiteEdit встроены готовые шаблоны дизайна по разным темам (спорт, здоровье, медицина, строительство, туризм, мини-магазины, мебель, автомобили и пр.). Самое простое решение для оформления своего сайта – воспользоваться одним из них.</p>
 				</section>
 				<hr class="se-docs-separator">
